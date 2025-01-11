@@ -1,12 +1,11 @@
 import "./App.css";
 import { Provider } from "../src/components/ui/provider";
-import { Tabs, Flex } from "@chakra-ui/react";
-import { LuFolder, LuSquareCheck, LuUser } from "react-icons/lu";
+import { Landing } from "/Users/i_shit/Desktop/my/src/pages/Landing.tsx";
 
 function App() {
   return (
     <Provider>
-      
+      <Landing></Landing>
     </Provider>
   );
 }
